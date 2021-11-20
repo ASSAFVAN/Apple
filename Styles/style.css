@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+header {
+  justify-content: center;
+  align-items: center;
+  background-color: #3333;
+  opacity: 0.9;
+  height: 44px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  opacity: 0.9;
+  height: 44px;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.label {
+  padding: 0 8px;
+}
+
+.label a {
+  color: #f5f5f7;
+  opacity: 0.8;
+  font-size: 12px;
+  padding: 0 8px;
+  font-weight: lighter;
+  letter-spacing: 0.3px;
+}
+
+.navbar a:hover {
+  color: white;
+  opacity: 1;
+}
+.fa-apple {
+  font-size: 18px;
+}
+.fa-search,
+.fa-shopping-bag {
+  font-size: 14px;
+}
+
+.red_box {
+  background-color: #e34140;
+  height: 44px;
+  width: 100%;
+  color: white;
+  font-weight: 300;
+  opacity: 1;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.shop_now:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.section {
+  height: 580px;
+}
+
+#section-1 {
+  background-color: #eaf2fc;
+}
+.section-1-info {
+  padding-top: 29px;
+  height: 237px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.apple-logo {
+  background-image: url(../Assets/Img/logo__dcojfwkzna2q_medium_2x.png);
+  height: 88px;
+  width: 70px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-1-info-h2 {
+  margin-top: 20px;
+}
+.section-h2 {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.07143;
+  letter-spacing: -0.005em;
+  color: #1d1d1f;
+}
+
+.section-h3 {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  color: #1d1d1f;
+}
+.section-2-h2 {
+  margin-top: 6px;
+}
+.section-2-h3 {
+  margin-top: 6px;
+}
+.click-label {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  color: #0066cc;
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.shop-gifts {
+  cursor: pointer;
+  color: #0066cc;
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.buy {
+  margin-left: 28px;
+}
+.click-label-item {
+  font-size: 17px;
+}
+.click-label:hover {
+  text-decoration: underline;
+}
+.shop-gifts {
+  margin-top: 9px;
+}
+
+.section-1-images {
+  height: 343px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sec-1-img {
+  height: 281px;
+  width: 297px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-1-img-1 {
+  background-image: url(../Assets/Img/iphone__cyamwsdph26a_medium_2x.png);
+}
+.section-1-img-2 {
+  background-image: url(../Assets/Img/airpods__b0941p5gmwj6_medium_2x.png);
+}
+.section-1-img-3 {
+  background-image: url(../Assets/Img/ipad__bq6djchifrbm_medium_2x.png);
+}
+
+.section-2 {
+  height: 624px;
+  background-image: url(../Assets/Img/hero_iphone_13pro__dhnsegysa42u_large.jpeg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 47px;
+}
+
+.learn-more-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.65em;
+}
+
+.section-3 {
+  height: 624px;
+  background-image: url(../Assets/Img/hero_iphone_13__f194u1rdooeq_large.jpeg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-3-h2 {
+  color: #f5f5f7;
+}
+.section-3-h3 {
+  color: #fdc2eb;
+}
+.section-border {
+  height: 12px;
+}
+
+.item {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 580px;
+  max-height: 580px;
+}
+.item:hover {
+  cursor: pointer;
+}
+.item1 {
+  grid-area: item1;
+  background-image: url(../Assets/Img/tile_macbookpro__cx0ur0qg9biq_large.jpeg);
+}
+
+.item2 {
+  grid-area: item2;
+  background-image: url(../Assets/Img/tile_watch__e9n11b6m6yq2_large.jpeg);
+}
+.item3 {
+  grid-area: item3;
+  background-image: url(../Assets/Img/tile_homepod_mini__b73w4z3ljymu_large.jpeg);
+}
+.item4 {
+  grid-area: item4;
+  background-image: url(../Assets/Img/tile_lego_castaways__d2v36ez91ewm_large.jpeg);
+}
+.item5 {
+  grid-area: item5;
+  background-image: url(../Assets/Img/tile__cauwwcyyn9hy_large.jpeg);
+}
+.item6 {
+  grid-area: item6;
+  background-image: url(../Assets/Img/promo_dickinson__c9ea4l2f5rki_large.jpeg);
+}
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "item1 item2"
+    "item3 item4"
+    "item5 item6";
+  grid-gap: 0px 12px;
+  background-color: white;
+  height: 1740px;
+  padding: 0px 12px 0px 12px;
+}
+.grid-section > div {
+  background-color: #fbfbfd;
+  text-align: center;
+}
+
+.unit-copy-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #1d1d1f;
+}
+.unit-copy-wrap > h4 {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-top: 53px;
+}
+.unit-copy-wrap > h5 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.unit-copy-wrap > .new {
+  font-size: 12px;
+  color: #bf4800;
+  margin-top: 31px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+.item-logo {
+  background-image: url(../Assets/Img/tile_watch_logo_lte__h7snssb7mqq2_large.png);
+  margin-top: 8px;
+  background-size: 146px 56px;
+  height: 56px;
+  width: 146px;
+}
+.item4 > .unit-copy-wrap > .item-logo {
+  background-image: url(../Assets/Img/logo__dcojfwkzna2q_large.png);
+  margin-top: 57px;
+  height: 34px;
+  width: 152px;
+  background-size: 152px 34px;
+}
+.item4 > .unit-copy-wrap > h5 {
+  margin-top: 10px;
+  letter-spacing: 0.016em;
+}
+.item5 > .unit-copy-wrap > .item-logo {
+  background-image: url(../Assets/Img/logo__dcojfwkzna2q_large_card.png);
+  margin-top: 56px;
+  height: 35px;
+  width: 125px;
+  background-size: 125px 35px;
+}
+.item5 > .unit-copy-wrap > h5 {
+  margin-top: 10px;
+  letter-spacing: 0.016em;
+  text-align: center;
+  height: 52px;
+}
+.item6 > .unit-copy-wrap > .item-logo {
+  background-image: url(../Assets/Img/logo_light__cfvl40z2nzau_large.png);
+  margin-top: 59px;
+  height: 31px;
+  width: 80px;
+  background-size: 80px 31px;
+}
+.item6 > .unit-copy-wrap > .item-logo-6 {
+  background-image: url(../Assets/Img/logo_dickinson_title__exfqr7iiyc8y_large.png);
+  height: 127px;
+  width: 257px;
+  background-size: 257px 127px;
+  margin-top: 289px;
+}
+.item-6-label {
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 400;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 13px;
+}
+.item-6-label:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #f5f5f7;
+  /* height: 736px; */
+  padding: 20px 0px 0px;
+  color: #6e6e73;
+  font-size: 12px;
+  letter-spacing: 0.0197em;
+  font-weight: 400;
+  line-height: 1.33337;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.top-footer-wrap {
+  width: 980px;
+  /* padding: 17px 0px; */
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.top-footer-wrap > ul {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+}
+.footer-li {
+  padding: 0px 0px 9.6px;
+}
+.top-footer-wrap > ul > li > a {
+  color: #424245;
+}
+.top-footer-wrap > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.footer-dir {
+  height: 414.31px;
+  display: flex;
+  /* padding: 20px 0px 0px; */
+}
+.dir-column {
+  width: 196px;
+}
+.footer-dir-h3 {
+  margin: 0px 20px 9.6px 0px;
+  font-size: 12px;
+  padding-top: 24px;
+}
+.footer-dir > div > ul > li {
+  margin: 0px 0px 9.6px;
+}
+.footer-dir > div > ul > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bottom-footer-wrap {
+  /* height: 58px; */
+  width: 980px;
+  /* padding: 34px 0px 21px; */
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.bottom-wrap {
+  display: flex;
+}
+.footer-links {
+  display: flex;
+}
+.color-links > a {
+  color: #0066cc;
+}
+.color-links > a:hover {
+  text-decoration: underline;
+}
+.color-links {
+  border-bottom: 1px solid #d2d2d7;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+.copyright {
+  margin: 5px 30px 0px 0px;
+}
+.footer-links > div {
+  margin: 5px 7px 0px 0px;
+  padding: 0px 10px 0px 0px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links > div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bottom-wrap > .usa {
+  margin: 5px 0px 0px 0px;
+  float: right;
+  margin-left: auto;
+}
+.usa:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-links > .sitemap {
+  border: none;
+}
+.fa-chevron-right {
+  font-size: 12px;
+}
+.shop_now > .fa-chevron-right {
+  font-size: 10px;
+}
