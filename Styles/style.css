@@ -164,10 +164,16 @@ a {
 .buy {
   margin-left: 28px;
 }
+.buy:hover {
+  text-decoration: underline;
+}
 .click-label-item {
   font-size: 17px;
 }
-.click-label:hover {
+/* .click-label:hover {
+  text-decoration: underline;
+} */
+.learn-more:hover {
   text-decoration: underline;
 }
 .shop-gifts {
@@ -240,7 +246,6 @@ a {
 .section-border {
   height: 12px;
 }
-
 .item {
   object-fit: cover;
   background-repeat: no-repeat;
@@ -257,7 +262,6 @@ a {
   grid-area: item1;
   background-image: url(../Assets/Img/tile_macbookpro__cx0ur0qg9biq_large.jpeg);
 }
-
 .item2 {
   grid-area: item2;
   background-image: url(../Assets/Img/tile_watch__e9n11b6m6yq2_large.jpeg);
@@ -294,7 +298,6 @@ a {
   background-color: #fbfbfd;
   text-align: center;
 }
-
 .unit-copy-wrap {
   display: flex;
   align-items: center;
@@ -381,12 +384,10 @@ a {
 
 footer {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   text-align: center;
   flex-direction: column;
   background-color: #f5f5f7;
-  /* height: 736px; */
   padding: 20px 0px 0px;
   color: #6e6e73;
   font-size: 12px;
@@ -399,7 +400,6 @@ footer {
 
 .top-footer-wrap {
   width: 980px;
-  /* padding: 17px 0px; */
   text-align: left;
   display: flex;
   align-items: center;
@@ -418,11 +418,9 @@ footer {
 .top-footer-wrap > ul > li > a:hover {
   text-decoration: underline;
 }
-
 .footer-dir {
   height: 414.31px;
   display: flex;
-  /* padding: 20px 0px 0px; */
 }
 .dir-column {
   width: 196px;
@@ -440,9 +438,7 @@ footer {
   cursor: pointer;
 }
 .bottom-footer-wrap {
-  /* height: 58px; */
   width: 980px;
-  /* padding: 34px 0px 21px; */
   text-align: left;
   margin-top: 60px;
   margin-bottom: 30px;
